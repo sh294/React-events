@@ -1,0 +1,259 @@
+.header-nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  width: 70%;
+  margin: auto;
+  justify-content: flex-end;
+}
+
+.header-nav ul li {
+  text-align: right;
+  list-style-type: none;
+}
+.header-nav-link {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  color: white;
+}
+.header-nav {
+  background-color: black;
+
+  position: relative;
+}
+.nav-contents {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-hamburger-menu {
+  display: none;
+  padding: 1rem;
+}
+.filter-nav {
+  margin: auto;
+  width: 100%;
+  padding: 0rem 3% 0rem 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text {
+  width: 80%;
+  margin: auto;
+}
+.add-new-event-button {
+  margin-left: 3%;
+}
+.footer {
+  
+  margin-top: 3rem;
+  height: 20%;
+  background-color:black;
+}
+.footer-content{
+   display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  padding: 4rem 0rem 1rem 0rem;
+}
+
+
+.eventpage-container {
+  width: 70%;
+  margin: auto;
+}
+
+
+.about-container {
+  width: 100%;
+  margin: auto;
+}
+.about-text {
+  margin: auto;
+  width: 80%;
+}
+.about-welcome-text {
+  margin: auto;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.about-salesbox {
+  width: 100%;
+  height: 20%;
+  background-color: #487abb;
+  padding: 1.5rem;
+
+  color: white;
+  margin: 3rem 0rem 1rem 0;
+}
+.about-hero img {
+  width: 100%;
+  height: 15rem;
+  background-color: #487abb;
+  margin-bottom: 5rem;
+  object-fit: cover;
+}
+.about-hero {
+  background-color: #487abb;
+  
+}
+.eventpage-container {
+  width: 100%;
+  padding-bottom: 10rem;
+  position: relative;
+}
+.event-page-hero {
+  height: 40rem;
+  width: 100%;
+  background-color: #487abb;
+
+}
+.event-page-hero img {
+  width: 100%;
+  object-fit: cover;
+  margin: 0 0 02rem 0;
+}
+
+.event-hero-text {
+  position: absolute;
+  border: 1px solid rgb(229, 229, 229);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  width: clamp(30%, 70%, 25rem);
+  box-shadow: 1px 1px 2px rgb(236, 236, 236);
+  margin: auto;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.event-hero-text-a {
+  padding: 0rem 2rem 0rem;
+}
+.event-page-text-sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 1rem 0rem 0rem 0rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.eventpage-links {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  max-width: 50%;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+}
+.eventpage-createdby {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0 0 0;
+}
+.event-page-hero-card-top {
+  height: 5rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: #5e8ad6;
+}
+
+.header-nav-link:hover {
+  color: orange;
+  font-weight: 500;
+}
+.active {
+  color: #8ab1fb;
+}
+
+.home-hero img {
+  background-color: #6a9ada;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.home_hero_text {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  color: white;
+  line-height: 0.7;
+}
+.home_hero_text h1 {
+  font-size: clamp(1.5rem, 0.8rem + 3.5vw, 5rem);
+  font-weight: 700;
+}
+
+.nav-link-mobile-box {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  height: 32vh;
+  color: white;
+  background-color: rgba(68, 62, 61, 0.6);
+}
+.nav-link-mobile-box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.nav-link-mobile-box ul li {
+  text-align: center;
+}
+.nav-link-mobile {
+  font-size: clamp(1rem, 0.8254rem + 1.2698vw, 1.5rem);
+}
+.nav-link-mobile:hover {
+  color: rgb(255, 0, 60);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 850px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-hamburger-menu {
+    display: block;
+    cursor: pointer;
+  }
+  .nav-contents {
+    width: 90%;
+  }
+}
+
+.glimmer-panel {
+  border: 1px dashed #aaa;
+  background: linear-gradient(
+    90deg,
+    rgba(221, 221, 221, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.glimmer-line {
+  display: block;
+  width: 60%;
+  height: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  background: #f0f0f0;
+}
